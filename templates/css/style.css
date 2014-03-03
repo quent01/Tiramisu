@@ -1,0 +1,323 @@
+@font-face{
+	font-family: 'aardvarkcafe';
+    src : url('../../fonts/aardvarkcafe/AARDC___.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+	font-family: 'saniretro';
+    src : url('../../fonts/saniretro/Saniretro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+	font-family: 'canter';
+    src : url('../../fonts/canter/Canter Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+	font-family: 'pixel';
+    src : url('../../fonts/pixel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;	
+}
+
+html, body{
+	background-color: #009999;
+	height : 100%;
+    display: block;
+}
+
+h1{
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+header{
+    width:auto;
+    display: block;   
+}
+
+.shadow{
+    box-shadow: 2px 2px 13px black; 
+}
+
+.bg_yellow{
+	background-color: yellow;
+}
+
+.bandeau{
+	height : 60px;
+}
+
+#header_principal{
+	height : 80px;
+	display: block;
+	/*border-bottom : solid 1px black;*/
+}
+#header_principal .bandeau{
+	margin-top: 40px;
+}
+
+#navbar_principal{
+	max-width:960px;
+	width : 95%;
+	margin : auto;
+  	height : 120px;			/*height of the logo*/
+	margin-top : -100px;	/* -(height(.bandeau)+margin-top(.bandeau)) */
+	/*line-height : 60px;*/		/* height(.bandeau) */
+    display: block;
+    /*border : solid 1px white;*/
+}
+
+.logo, #nav_principal, .logo a{
+	display : inline-block;
+}
+
+.logo a{
+	margin-left : -20px;
+	margin-right : 20px;
+	padding-left : 20px;
+	padding-right : 10px;
+	overflow: hidden;
+	font-family : 'aardvarkcafe';
+	font-size : 40px;
+	color : purple;
+	/*border : solid 1px red;*/
+}
+
+.logo img, .logo a, #nav_principal, #nav_principal a {
+	vertical-align: middle;
+}
+
+.logo img{
+	position : relative;
+	z-index : 99;
+}
+
+.logo a, #nav_principal{
+	margin-top : 20px;
+}
+
+#nav_principal{
+	margin-left: 3%;
+    display: inline-block;
+    overflow: hidden;
+    font-family: 'canter';
+    text-transform : uppercase;
+    font-weight : bold;
+    font-size : 25px;
+    /*border: solid 1px blue;*/
+}
+
+#nav_principal ul{
+	margin-left: 40px;
+	display: inline-block;
+}
+
+#nav_principal li{
+	display : inline-block;
+    list-style:none;
+    margin: 0px -2px 0px -2px;
+    /*border: solid 1px green;*/
+}
+
+#nav_principal a{
+	padding: 0px 7px 0px 7px;
+	color : black;
+}
+
+#navbar_principal a{
+	display : inherit;
+    text-decoration: none;/*pas de soulignement*/
+    line-height:60px;	/*>height(.bandeau)*/
+   
+    white-space:nowrap;
+   	
+    /* CSS3 Transition: */
+    -webkit-transition: 0.15s; 
+    -moz-transition: 0.15s;
+    transition: 0.15s;
+
+    /*border: solid 1px green;*/
+
+}
+
+#nav_principal a:hover{
+	color : white
+}
+
+.logo a:hover{
+	color : yellow;
+}
+
+#navbar_principal a:hover{
+    background: #111111;
+}
+
+#main{
+    margin: 0 auto;
+    margin-top: 10px;
+   	max-width : 900px;
+    width:100%;
+    height : auto;
+    padding-bottom : 10px;
+    background-color : white;
+    display: block;
+    /*border:solid 1px red;*/
+}
+
+#comicstrip{
+	margin : 0 auto;
+	max-width : 800px;
+	width : 100%
+	display: inherit;
+	/*border : solid 1px red;*/
+	
+}
+
+#comicstrip h1{
+	margin : 0 auto;
+	text-align : center;
+	width: auto;
+	padding : 20px 0 10px 0;
+}
+
+#comicstrip img{
+	margin: 0 auto;
+	display: inherit;
+	max-width: 700px;
+	width : 100%;
+}
+
+.comics_nav{
+	max-width: 650px;
+	width : 90%;
+	margin : 0 auto;
+	text-align: right;
+	display: block;
+	/*border : solid 1px red;*/
+}
+
+#nav_page{
+	font-family: 'canter';
+    text-transform : uppercase;
+    font-weight : bold;
+    font-size : 20px;
+	display: inline-block;
+	text-align : center;
+	/*width : 200px;*/
+	padding : 5px 0px 5px 0px;
+	border-radius : 5px;
+	background-color: #111111;
+}
+
+#nav_page li{
+	display: inline-block;
+	padding : 2px 22px 4px 22px;
+	white-space: nowrap;
+	text-decoration : none;
+	text-align: center;
+	/*border: solid 1px green;*/
+}
+
+#nav_page a{
+	text-decoration: none;
+	padding : 3px 0px 3px 0px;
+	color : white;
+}
+
+#nav_page a:hover{
+	color : yellow;
+}
+
+#nav_page li:first-child{
+	border-right : solid 1px white;
+}
+
+#page{
+	max-width: 650px;	/*less than the img*/
+	width :33%;		/*less than the img*/
+	text-align : right;
+	margin: -43px auto;
+	font-size : 20px;
+	display : inline-block;
+	font-family: 'canter';
+	/*border : solid 1px red;*/
+	
+}
+
+/*****************************************************/
+/****************FOOTER*******************************/
+/*****************************************************/
+
+footer{
+	margin-top : 50px;
+	margin-bottom : 0px;
+	font-family: 'canter';
+	/*border : solid 1px black;*/
+}
+
+footer h1{
+	margin : auto;
+	border-radius : 10px;
+	width : 250px;
+	background-color : yellow;
+	color : black;
+	text-align: center;
+	padding-top : 5px;
+	padding-bottom : 20px;
+	font-family: 'canter';
+	text-transform: uppercase;	
+	display: block;
+	position : relative;
+	z-index: 99;
+	/*border : solid 1px black;*/
+}
+
+footer ul{
+	background-color : yellow;
+	padding : 50px 0 30px 0;
+	margin-top : -17px;
+	display: block;
+	z-index: -1; 
+	text-align: center;
+	font-size : 22px;
+	font-weight : bold;
+	text-transform: uppercase;	
+}
+
+footer li{
+	display: inline-block;
+	margin : 15px 30px 15px 30px;
+}
+
+footer a{
+	padding : 5px 1px 5px 1px;
+	color : purple;
+	text-decoration: none;
+	letter-spacing: 1px;
+	/*border : solid 1px red;*/
+	
+	/*CSS3 transition*/
+	-webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    transition: 0.25s;
+}
+
+footer a:hover{
+	border-bottom: solid 2px purple;
+}
+
+#copyright{
+	border-top : dashed 1px grey;
+	letter-spacing: 1px;
+	font-size : 20px;
+	text-align: center;
+	padding: 7px;
+	background-color : yellow;
+}
