@@ -56,8 +56,8 @@
 		</footer>
 		
 		<!--jQuery-->
-		<!--<script type="text/javascript" src="templates/js/jquery.min.js"></script>-->
-		<!--<script type="text/javascript" src="templates/js/keypress_nav.js"></script>-->
+		<script type="text/javascript" src="templates/js/jquery.min.js"></script>
+		<script type="text/javascript" src="templates/js/keypress_nav.js"></script>
 		<!--end jQuery-->
 	</body>	
 </html>	
