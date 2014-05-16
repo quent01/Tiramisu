@@ -62,102 +62,105 @@ header{
 #header_principal .bandeau{
 	margin-top: 40px;
 }
+/*MENU PRINCIPAL*/
+	#navbar_principal{
+		max-width:960px;
+		width : 100%;
+		vertical-align: middle;
+		margin : auto;
+	  	height : 120px;			/*height of the logo*/
+		margin-top : -100px;	/* -(height(.bandeau)+margin-top(.bandeau)) */
+		/*line-height : 60px;*/		/* height(.bandeau) */
+	    display: block;
+	    /*border : solid 1px white;*/
+	}
 
-#navbar_principal{
-	max-width:960px;
-	width : 95%;
-	margin : auto;
-  	height : 120px;			/*height of the logo*/
-	margin-top : -100px;	/* -(height(.bandeau)+margin-top(.bandeau)) */
-	/*line-height : 60px;*/		/* height(.bandeau) */
-    display: block;
-    /*border : solid 1px white;*/
-}
+	.logo, #nav_principal, .logo a span{
+		display : inline-block;
+		margin-left: 10px;
+	}
+	.logo a{
+		display: inline-block;
+	}
+	.logo a span{
+		margin-left : -20px;
+		margin-right : 20px;
+		padding-left : 20px;
+		padding-right : 10px;
+		overflow: hidden;
+		font-family : 'aardvarkcafe';
+		font-size : 40px;
+		color : purple;
+		display: inline-block;
+		/*border : solid 1px red;*/
+	}
 
-.logo, #nav_principal, .logo a{
-	display : inline-block;
-}
+	.logo img, .logo a span, #nav_principal, #nav_principal a {
+		vertical-align: middle;
+	}
 
-.logo a{
-	margin-left : -20px;
-	margin-right : 20px;
-	padding-left : 20px;
-	padding-right : 10px;
-	overflow: hidden;
-	font-family : 'aardvarkcafe';
-	font-size : 40px;
-	color : purple;
-	/*border : solid 1px red;*/
-}
+	.logo img{
+		position : relative;
+		z-index : 99;
+	}
 
-.logo img, .logo a, #nav_principal, #nav_principal a {
-	vertical-align: middle;
-}
+	.logo a span, #nav_principal{
+		margin-top : 20px;
+	}
 
-.logo img{
-	position : relative;
-	z-index : 99;
-}
 
-.logo a, #nav_principal{
-	margin-top : 20px;
-}
+	#navbar_principal a{
+	    text-decoration: none;/*pas de soulignement*/
+	    line-height:60px;	/*>height(.bandeau)*/
+	   
+	    white-space:nowrap;
+	   	
+	    /* CSS3 Transition: */
+	    -webkit-transition: 0.15s; 
+	    -o-transition: 0.15s; 
+	    -moz-transition: 0.15s;
+	    transition: 0.15s;
 
-#nav_principal{
-	margin-left: 3%;
-    display: inline-block;
-    overflow: hidden;
-    font-family: 'canter';
-    text-transform : uppercase;
-    font-weight : bold;
-    font-size : 25px;
-    /*border: solid 1px blue;*/
-}
+	    /*border: solid 1px green;*/
+	}
+	#navbar_principal a:hover span, #nav_principal li a:hover{
+	    background: #111111;
+	}
 
-#nav_principal ul{
-	margin-left: 40px;
-	display: inline-block;
-}
+	#nav_principal{
+		max-width: 300px;
+		width: 100%;
+	    display: inline-block;
+	    overflow: hidden;
+	    font-family: 'canter';
+	    text-transform : uppercase;
+	    text-align: center;
+	    font-weight : bold;
+	    font-size : 25px;
+	    display: inline-block;
+	    /*border: solid 1px blue;*/
+	}
 
-#nav_principal li{
-	display : inline-block;
-    list-style:none;
-    margin: 0px -2px 0px -2px;
-    /*border: solid 1px green;*/
-}
+	#nav_principal li{
+		display : inline-block;
+	    list-style:none;
+	    width: 33.333333333%;
+	    /*border: solid 1px green;*/
+	}
 
-#nav_principal a{
-	padding: 0px 7px 0px 7px;
-	color : black;
-}
+	#nav_principal a{
+		color : black;
+		display: block;
+		width: :100%;
+	}
 
-#navbar_principal a{
-	display : inherit;
-    text-decoration: none;/*pas de soulignement*/
-    line-height:60px;	/*>height(.bandeau)*/
-   
-    white-space:nowrap;
-   	
-    /* CSS3 Transition: */
-    -webkit-transition: 0.15s; 
-    -moz-transition: 0.15s;
-    transition: 0.15s;
+	#nav_principal a:hover{
+		color : white
+	}
 
-    /*border: solid 1px green;*/
-
-}
-
-#nav_principal a:hover{
-	color : white
-}
-
-.logo a:hover{
-	color : yellow;
-}
-
-#navbar_principal a:hover{
-    background: #111111;
-}
+	.logo a:hover{
+		color : yellow;
+	}
 
 #main{
     margin: 0 auto;
@@ -320,4 +323,33 @@ footer a:hover{
 	text-align: center;
 	padding: 7px;
 	background-color : yellow;
+}
+
+@media screen and (max-width: 605px) {
+	/*MENU PRINCIPAL*/
+		.logo a span{ display: none;}
+		#navbar_principal{text-align: center; margin-left: 0;}
+
+}
+@media screen and (max-width: 500px) {
+	/*MENU PRINCIPAL*/
+		#navbar_principal .logo img{width: 80px;margin-top: 15px;}
+		#nav_principal{margin-left: -20px; margin-top: 29px;}
+
+}
+@media screen and (max-width: 400px) {
+	/*MENU PRINCIPAL*/
+		#navbar_principal{text-align: center;}
+		#navbar_principal .logo{
+			margin: -5px 0;padding: 0;
+			display: block;
+			/*border: solid 1px red;*/
+		}
+		#navbar_principal .logo img{width: 40px; height: auto; margin: -5px 0;padding: 0;}
+		#nav_principal{
+			display: block;
+			margin: -20px auto 0 auto;
+			width: 100%;
+			/*border: solid 1px red;*/
+		}
 }
