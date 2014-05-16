@@ -158,7 +158,7 @@ header{
 		color : white
 	}
 
-	.logo a:hover{
+	.logo a:hover span{
 		color : yellow;
 	}
 
