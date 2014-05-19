@@ -9,7 +9,7 @@
 		</div> 
 		<ul id="nav_principal"><!--
 			--><li><a href="#">equipe</a></li><!--
-			--><li><a href="#">archives</a></li><!--
+			--><li><a href="archive.php">archives</a></li><!--
 			--><li><a href="#">bonus</a></li><!--
 	--></ul>
 	</nav>

@@ -1,0 +1,64 @@
+#main{
+	text-align: center;
+}
+.img-box{
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	max-width: 250px;
+	width: 100%;
+	margin: 20px 10px;
+	font-family: 'canter'; 
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 3px #000;
+	/*border: solid 1px red;*/
+}
+.img-box img{
+	max-width: 100%;
+	max-height: 100%;
+	box-shadow: 0 1px 3px #000;
+	height: auto;
+}
+.img-box-container{
+	max-height: 200px;
+	max-width: 300px;
+}
+
+.img-box-info{
+	text-align: left;
+	position: relative;
+	background-color: #c8c8c8; 
+}
+.img-box-info-creator{
+	margin-top: 5px;
+	display: block;
+	text-align: left;
+	position: relative;
+}
+.img-box-info-pic{
+	margin: 0 0 0 10px; 
+	width: 30px;height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	border-radius: 50%;
+	border: solid 1px red;
+}
+.img-box-info-name{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 10px 0 10px; 
+	font-size: 22px;
+	display: inline-block;
+}
+.img-box-info-year{
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 25px;
+}
+.img-box-info-year{
+	position: absolute;
+	right: 10px; top: 5px;
+}

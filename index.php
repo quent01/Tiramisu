@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" href="#"><!--Favicon-->
-		<link rel="stylesheet" href="templates/css/reset.css">
+		<?php require 'templates/_head.php'; ?>
 		<link rel="stylesheet" href="templates/css/style.css">
 
 		<!--Google analytics-->
