@@ -2,10 +2,6 @@
 <html>
 	<head>
 		<?php require 'templates/_head.php'; ?>
-		<link rel="stylesheet" href="templates/css/style.css">
-		<link rel="stylesheet" href="templates/css/archive.css">
-		<link rel="stylesheet" href="templates/css/_tags.css">
-
 		<!--Google analytics-->
 		<!--plus tard-->
 		<!--Fin google analytics-->
@@ -96,8 +92,6 @@
 				</div>
 			</div>
 		</div>
-
-		
 
 		<footer>
 			<?php include 'templates/_footer.php'; ?>			

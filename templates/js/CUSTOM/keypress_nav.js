@@ -1,5 +1,5 @@
 document.onkeyup = KeyCheck;       
-          
+	
 	var ArrowLeft  = 37;
 	var ArrowRight = 39;
 
@@ -11,7 +11,7 @@ document.onkeyup = KeyCheck;
         var comicsID = url.substring(url.lastIndexOf("=")+1); 	
         var str_comicsID = comicsID.toString();
         console.log(str_comicsID);
-         
+        
 		switch(KeyID)
 		{
 			case ArrowLeft :
@@ -34,4 +34,4 @@ document.onkeyup = KeyCheck;
 				window.location = "index.php?comicsID="+str_comicsID;
 			break;
 		}
-    }
+	}	

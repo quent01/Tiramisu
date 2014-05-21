@@ -15,15 +15,9 @@
 
 <!-- JAVASCRIPT -->
 <script type="text/javascript" src="templates/js/jquery.min.js"></script>
-
-<script type="text/javascript">
-	var url = document.location.pathname.split('/').pop();
-	console.log("pathname : " + url);
-
-	if(url == "index.php"){
-		document.write("<script type=\"text\/javascript\" src=\"templates/js/CUSTOM/keypress_nav.js\"><\/script>");
-	}
-</script>
+<!-- var pathname = document.location.pathname.split('/').pop();
+console.log("pathname : " + pathname); -->
+<script type="text/javascript" src="templates/js/CUSTOM/keypress_nav.js" data-no-instant ></script>
 
 <script src="templates/js/instantclick/instantclick.min.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init();</script>
+<script data-no-instant>InstantClick.init('mousedown');</script>
