@@ -1,0 +1,23 @@
+{
+  "name": "Tiramisu",
+  "version": "0.0.2",
+  "homepage": "http://tiramisu.iiens.eu",
+  "authors": [
+    "quent01 <quentinthenoz@gmail.com>"
+  ],
+  "description": "Site pour afficher les créations graphiques des élèves de l'Ensiie Strasbourg",
+  "main": "templates/css/style.css",
+  "keywords": [
+    "Ensiie"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "templates/js",
+    "test",
+    "tests"
+  ]
+}
