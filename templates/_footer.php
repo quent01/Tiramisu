@@ -12,3 +12,6 @@
 		Copyright &copy; - All rights reserved
 	</span>
 </div>
+<!-- JAVASCRPT -->
+<script src="templates/js/instantclick/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>

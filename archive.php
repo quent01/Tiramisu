@@ -25,17 +25,13 @@
 				<div class="img-box-info">
 					<div class="img_box-info-creator">
 						<div class="img-box-info-pic"></div>
-						<div class="img-box-info-name"><span>Quentin</span></div>
+						<div class="img-box-info-name"><span>Quentin</span><a>&#9660;</a></div>
 						<div class="img-box-info-year"><span>2014</span></div>
 					</div>
-					<div class="img-box-info-tags">
-						<nav>
-							<ul>
-								<li><a href=""><span>logo</span></a></li>
-								<li><a href=""><span>design</span></a></li>
-								<li><a href=""><span>affiche</span></a></li>
-							</ul>
-						</nav>
+					<div class="img-box-info-tags tags">
+						<a href=""><span>logo</span></a>
+						<a href=""><span>design</span></a>
+						<a href=""><span>affiche</span></a>
 					</div>
 				</div>
 			</div>
@@ -47,17 +43,13 @@
 				<div class="img-box-info">
 					<div class="img_box-info-creator">
 						<div class="img-box-info-pic"></div>
-						<div class="img-box-info-name"><span>Quentin</span></div>
+						<div class="img-box-info-name"><span>Quentin</span><a>&#9660;</a></div>
 						<div class="img-box-info-year"><span>2014</span></div>
 					</div>
-					<div class="img-box-info-tags">
-						<nav>
-							<ul>
-								<li><a href=""><span>logo</span></a></li>
-								<li><a href=""><span>design</span></a></li>
-								<li><a href=""><span>affiche</span></a></li>
-							</ul>
-						</nav>
+					<div class="img-box-info-tags tags">
+						<a href=""><span>logo</span></a>
+						<a href=""><span>design</span></a>
+						<a href=""><span>affiche</span></a>
 					</div>
 				</div>
 			</div>
@@ -69,17 +61,13 @@
 				<div class="img-box-info">
 					<div class="img_box-info-creator">
 						<div class="img-box-info-pic"></div>
-						<div class="img-box-info-name"><span>Quentin</span></div>
+						<div class="img-box-info-name"><span>Quentin</span><a>&#9660;</a></div>
 						<div class="img-box-info-year"><span>2014</span></div>
 					</div>
-					<div class="img-box-info-tags">
-						<nav>
-							<ul>
-								<li><a href=""><span>logo</span></a></li>
-								<li><a href=""><span>design</span></a></li>
-								<li><a href=""><span>affiche</span></a></li>
-							</ul>
-						</nav>
+					<div class="img-box-info-tags tags">
+						<a href=""><span>logo</span></a>
+						<a href=""><span>design</span></a>
+						<a href=""><span>affiche</span></a>
 					</div>
 				</div>
 			</div>
@@ -91,21 +79,25 @@
 				<div class="img-box-info">
 					<div class="img_box-info-creator">
 						<div class="img-box-info-pic"></div>
-						<div class="img-box-info-name"><span>Quentin</span></div>
+						<div class="img-box-info-name"><span>Quentin</span><a>&#9660;</a></div>
 						<div class="img-box-info-year"><span>2014</span></div>
 					</div>
-					<div class="img-box-info-tags">
-						<nav>
-							<ul>
-								<li><a href=""><span>logo</span></a></li>
-								<li><a href=""><span>design</span></a></li>
-								<li><a href=""><span>affiche</span></a></li>
-							</ul>
-						</nav>
+					<div class="img-box-info-tags tags">
+						<a href=""><span>logo</span></a>
+						<a href=""><span>design</span></a>
+						<a href=""><span>affiche</span></a>
 					</div>
 				</div>
 			</div>
+			
+			<div class="browse-paging">
+				<div class="pagination">
+					<a href="" class="">Show More &#9660;</a>
+				</div>
+			</div>
 		</div>
+
+		
 
 		<footer>
 			<?php include 'templates/_footer.php'; ?>			

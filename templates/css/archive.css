@@ -1,6 +1,21 @@
+/*CSS less-ish variable*/
+/* 
+@img-box-bgColor = rgba(0, 0, 0, 0.5);
+@img-box-info-bgColor = rgba(255, 255, 255, 0.2); 
+@img-box-info-picWidth = 28px;
+@img-box-info-name-txtSize = 22px;
+@img-box-info-year-txtSize = @img-box-info-name-txtSize;
+
+@pagination-buttonColor = purple;
+@pagination-button-txtColor = yellow;
+*/
+
+
 #main{
 	text-align: center;
 }
+
+
 .img-box{
 	display: inline-block;
 	vertical-align: middle;
@@ -10,7 +25,7 @@
 	margin: 20px 10px;
 	font-family: 'canter'; 
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);;
 	box-shadow: 0 1px 3px #000;
 	/*border: solid 1px red;*/
 }
@@ -20,45 +35,100 @@
 	box-shadow: 0 1px 3px #000;
 	height: auto;
 }
+
+
 .img-box-container{
 	max-height: 200px;
 	max-width: 300px;
 }
 
+
 .img-box-info{
+	padding-top: 5px;
 	text-align: left;
 	position: relative;
-	background-color: #c8c8c8; 
+	background-color: rgba(255, 255, 255, 0.2); ; 
 }
+
+
 .img-box-info-creator{
 	margin-top: 5px;
 	display: block;
 	text-align: left;
 	position: relative;
 }
+
+
 .img-box-info-pic{
 	margin: 0 0 0 10px; 
-	width: 30px;height: 30px;
+	width: 28px;;
+	height: 28px;;
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
 	border-radius: 50%;
 	border: solid 1px red;
+	background-color: red;
 }
+
+
 .img-box-info-name{
 	display: inline-block;
 	vertical-align: middle;
 	padding: 0 10px 0 10px; 
-	font-size: 22px;
+	font-size: 22px;;
 	display: inline-block;
 }
+.img-box-info-name a{
+	font-size: 20px;
+	cursor: pointer;
+	padding: 0 3px 0 3px;	
+}
+
+
 .img-box-info-year{
 	text-align: right;
 	display: inline-block;
 	vertical-align: middle;
-	font-size: 25px;
-}
-.img-box-info-year{
+	font-size: 22px;;;
 	position: absolute;
 	right: 10px; top: 5px;
 }
+
+
+
+.img-box-info-tags{
+	text-align: left;
+	padding: 5px 0 5px 10px;
+	/*border: solid 1px red;*/
+}
+
+/*PAGINATION*/
+	.browse-paging{
+		margin-top: 30px;
+		width: 100%;
+		text-align: center;
+		/*border:solid 1px red;*/
+	}
+	.pagination{
+		display: block;
+	}
+	.pagination a{
+		text-decoration: none;
+		text-transform: uppercase;
+		padding: 10px 15px 10px 15px;
+		font-size: 25px;
+		font-family: 'saniretro';
+		background-color: purple;;
+		color: yellow;;
+		text-shadow: 0 1px 1px #34495e;
+		border-radius: 5px 5px 0 0;
+		box-shadow: 0 -3px 1px #34495e; 
+	}
+	.pagination a:hover{
+		box-shadow: 0 -2px 1px #34495e;
+		background-color: #8e44ad;
+		color: #f1c40f; 
+	}
+
+/* Variables:img-box-info-name-txtSize{1343:1348}.img-box-info-picWidth{1070:1075,1086:1091}.pagination-buttonColor{2041:2048}.img-box-bgColor{551:570}.pagination-button-txtColor{2059:2066}.img-box-info-year-txtSize{1563:1569}.img-box-info-bgColor{886:911} */

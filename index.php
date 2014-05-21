@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<?php require 'templates/_head.php'; ?>
-		<link rel="stylesheet" href="templates/css/style.css">
 
 		<!--Google analytics-->
 		<!--plus tard-->
