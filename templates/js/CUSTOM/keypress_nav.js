@@ -1,5 +1,8 @@
 document.onkeyup = KeyCheck;       
           
+	var ArrowLeft  = 37;
+	var ArrowRight = 39;
+
     function KeyCheck(e)
     {
 		var KeyID = (window.event) ? event.keyCode : e.keyCode;
@@ -11,7 +14,7 @@ document.onkeyup = KeyCheck;
          
 		switch(KeyID)
 		{
-			case 37 : //arrow left
+			case ArrowLeft :
 
 				if (comicsID > 1) {comicsID--;}
 				else{ comicsID = 1;}
@@ -21,7 +24,7 @@ document.onkeyup = KeyCheck;
 				window.location = "index.php?comicsID="+str_comicsID;
 			break;
 		
-			case 39 : // arrow right
+			case ArrowRight : 
 
 				if (comicsID >= 1) {comicsID++;}
 				else{comicsID = 1;}
