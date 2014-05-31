@@ -10,7 +10,7 @@
 		<title>Tiramisù</title>
 	</head>
 	
-	<body>	
+	<body id="index">	
 		<header id="header_principal">
 			<?php include 'templates/_header.php'; ?>	
 		</header>

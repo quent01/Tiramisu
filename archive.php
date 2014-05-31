@@ -8,7 +8,7 @@
 
 		<title>Tiramisù</title>
 	</head>
-	<body>
+	<body id="archive">
 		<header id="header_principal">
 			<?php include 'templates/_header.php'; ?>	
 		</header>
