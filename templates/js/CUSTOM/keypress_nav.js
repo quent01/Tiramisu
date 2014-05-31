@@ -1,16 +1,19 @@
-document.onkeyup = KeyCheck;       
+define([
+	'jquery',
+], function($){
+	'use strict';
 	
 	var ArrowLeft  = 37;
 	var ArrowRight = 39;
 	var comicsID_max = 7;
 
-	function ChangeUrl(comicsID){
-		str_comicsID = comicsID.toString();
+	var ChangeUrl = function ChangeUrl(comicsID){
+		var str_comicsID = comicsID.toString();
 		// console.log(str_comicsID);
 		window.location = "index.php?comicsID="+str_comicsID;
 	}
 
-    function KeyCheck(e)
+    var KeyCheck = function KeyCheck(e)
     {
 		var KeyID = (window.event) ? event.keyCode : e.keyCode;
 		// we get the current comicsID
@@ -42,4 +45,13 @@ document.onkeyup = KeyCheck;
 				break;
 			}
 		}
-	}	
+	}
+
+	document.onkeyup = KeyCheck;       
+
+});
+
+	
+	
+
+		

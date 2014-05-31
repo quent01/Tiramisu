@@ -14,10 +14,7 @@
 </div>
 
 <!-- JAVASCRIPT -->
-<!-- <script type="text/javascript" data-main="templates/js/CUSTOM/boot" src="templates/js/requirejs/require.js" async></script> -->
-	
-	<script type="text/javascript" src="templates/js/jquery/dist/jquery.min.js" data-no-instant async></script>
-	<script type="text/javascript" src="templates/js/CUSTOM/keypress_nav.js" data-no-instant async></script>
+	<script type="text/javascript" data-main="templates/js/CUSTOM/boot" src="templates/js/requirejs/require.js"></script>
 
-	<script src="templates/js/instantclick/instantclick.min.js" data-no-instant></script>
-	<script data-no-instant>InstantClick.init('mousedown');</script>
+	<!-- <script src="templates/js/instantclick/instantclick.min.js" data-no-instant></script>
+	<!-- <script data-no-instant>InstantClick.init('mousedown');</script>-->
