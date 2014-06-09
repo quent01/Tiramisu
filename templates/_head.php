@@ -24,4 +24,10 @@
 
 <link rel="stylesheet" href="templates/css/archive.css">
 
+<!-- PHP files -->
+<?php
+	require 'config/config.php';
+	require 'functions/database.fn.php ';
+	$pdo = getPDOLink($config);
+?>
 

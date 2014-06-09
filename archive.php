@@ -14,7 +14,10 @@
 		</header>
 		
 		<div id="main">
-			<div class="img-box">
+			
+			<?php include 'templates/form/form.upload_image.php'; ?>		
+	
+<!-- 			<div class="img-box">
 				<div class="img-box-container">
 					<a href=""><img src="http://lorempicsum.com/futurama/300/200/1" alt="" /></a>
 				</div>
@@ -85,7 +88,7 @@
 					</div>
 				</div>
 			</div>
-			
+ -->
 			<div class="browse-paging">
 				<div class="pagination">
 					<a href="" class="">Show More &#9660;</a>

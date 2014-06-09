@@ -1,4 +1,11 @@
 #################
+## Special files
+#################
+
+# sql config
+config/config.php
+
+#################
 ## Eclipse
 #################
 
